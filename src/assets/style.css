@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.App {
+  width: 50%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  font-family: poppins;
+  margin-left:300px;
+
+}
+
+.title {
+  font-weight: 700;
+}
+
+.slider {
+  width: 100%;
+}
+
+.lables {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tenureContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.tenure {
+  width: 15%;
+  height: 50px;
+  border: none;
+  border-radius: 100px;
+  background-color: rgb(226, 226, 226);
+}
+
+.selected {
+  background-color: #009ad6;
+  color: white;
+}
+
+.loan{
+  background-color: #c8d2ca;
+}
+
+p{
+  font-size:13px;
+  color:rgb(243, 243, 243);
+ margin-bottom:0;
+}
+
+.contact{
+    /* background:url('../images/background.webp'); */
+    background-color: #536b5f;
+}
+
+
+
